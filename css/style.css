@@ -1,0 +1,30 @@
+body {
+    background-image: linear-gradient(135deg, white, aqua);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navMenu {
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.navMenu li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.navMenu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navMenu li a:hover {
+    text-decoration: underline;
+}
+
